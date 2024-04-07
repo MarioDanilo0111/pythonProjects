@@ -16,12 +16,10 @@ def string_mutatuin(input_string):
   strin_shup = []
 
   for i, char in enumerate(input_string):
-    modified_char = char
     if char.isupper():
-      modified_char = char.lower() 
-
+      char.lower() 
     if i % 2 == 0:
-        strin_shup.append(modified_char)
+        strin_shup.append(char)
     
   return ''.join(strin_shup)
 
