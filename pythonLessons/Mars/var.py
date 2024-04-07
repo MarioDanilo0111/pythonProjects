@@ -92,6 +92,6 @@ print(id(Name2)) """
 
 """ name1 = "John" """
 """ name1[1] = "i" """
-""" name1 = name1.replace("o", "a")
+""" name1 = name1.replace("o", "a")"""
 
-print(name1) """
+""" print(Name1) """
