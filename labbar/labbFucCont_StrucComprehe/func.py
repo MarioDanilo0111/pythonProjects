@@ -12,7 +12,7 @@ sequence = [1, 2, 3, 4, 5]
 is_present = checking_sequenceOfNum(num, sequence)
 print(is_present) """
 
-def string_mutatuin(input_string):
+""" def string_mutatuin(input_string):
   strin_shup = []
 
   for i, char in enumerate(input_string):
@@ -25,4 +25,17 @@ def string_mutatuin(input_string):
 
 string = 'Hello World'
 send_string = string_mutatuin(string)
-print(send_string)
+print(send_string) """
+
+def multiple_str_back(string_input):
+
+  char_times_two = []
+
+  for char in string_input:
+   char_times_two.append(char*2)
+
+  return ''.join(char_times_two) 
+
+string = 'Hello World'
+duble_string = multiple_str_back(string)
+print(duble_string)
