@@ -27,7 +27,7 @@ string = 'Hello World'
 send_string = string_mutatuin(string)
 print(send_string) """
 
-def multiple_str_back(string_input):
+""" def multiple_str_back(string_input):
 
   char_times_two = []
 
@@ -39,3 +39,16 @@ def multiple_str_back(string_input):
 string = 'Hello World'
 duble_string = multiple_str_back(string)
 print(duble_string)
+ """
+
+def count_of_even_nums(list_of_nums):
+  count = 0
+  for sublist in list_of_nums:
+      for num in sublist:
+        if num % 2 == 0:
+          count += 1
+  return count
+
+list_of_nums = [[1, 3, 5, 7, 9], [2, 4, 6, 8, 10], [11, 13, 15, 17, 19], [12, 14, 16, 18, 20]]
+return_value = count_of_even_nums(list_of_nums)
+print(return_value)
