@@ -53,7 +53,7 @@ list_of_nums = [[1, 3, 5, 7, 9], [2, 4, 6, 8, 10], [11, 13, 15, 17, 19], [12, 14
 return_value = count_of_even_nums(list_of_nums)
 print(return_value) """
 
-import random 
+""" import random 
 
 def guess_number():
   digits = [str(random.randint(1, 9))]
@@ -69,7 +69,7 @@ def guess_number():
   random_digit_set = set(random_number_str)
   user_digit_set = set(user_guess_str)
 
-  """ print('Guess a 3-digit number: ')   """
+  #  print('Guess a 3-digit number: ')  
 
   while True:
      user_guess = input(
@@ -83,7 +83,7 @@ def guess_number():
      
      common_digits = random_digit_set.intersection(user_digit_set)
   
-     """ correct_digit = [digit for digit, guess in zip(random_nr_str, user_guess) if digit == guess] """
+      # correct_digit = [digit for digit, guess in zip(random_nr_str, user_guess) if digit == guess] 
     
      if len(common_digits) == 3:
        print('You guessed the correct number!')
@@ -96,3 +96,4 @@ def guess_number():
   print(f'The correct number is: {random_nr_str}')
 
 guess_number()
+ """
